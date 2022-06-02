@@ -1,0 +1,14 @@
+{
+	"hash": "d41d8cd98f00b204e9800998ecf8427e",
+	"updated": "2022-06-02T00:23:39.1668056-03:00",
+	"installedModules": {
+		"github.com/adrianosantostreina/loadphotofromurl": {
+			"name": "loadphotofromurl",
+			"version": "1.0.0",
+			"hash": "e5ac8a744745d055f148b13be31e5c24",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		}
+	}
+}
