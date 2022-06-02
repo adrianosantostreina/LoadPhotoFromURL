@@ -1,0 +1,14 @@
+c:\program files (x86)\embarcadero\studio\22.0\lib\android\Debug\android-support-v4.dex.jar
+c:\program files (x86)\embarcadero\studio\22.0\lib\android\Debug\cloud-messaging.dex.jar
+c:\program files (x86)\embarcadero\studio\22.0\lib\android\Debug\fmx.dex.jar
+c:\program files (x86)\embarcadero\studio\22.0\lib\android\Debug\google-analytics-v2.dex.jar
+c:\program files (x86)\embarcadero\studio\22.0\lib\android\Debug\google-play-billing.dex.jar
+c:\program files (x86)\embarcadero\studio\22.0\lib\android\Debug\google-play-licensing.dex.jar
+c:\program files (x86)\embarcadero\studio\22.0\lib\android\Debug\google-play-services-ads-7.0.0.dex.jar
+c:\program files (x86)\embarcadero\studio\22.0\lib\android\Debug\google-play-services-analytics-7.0.0.dex.jar
+c:\program files (x86)\embarcadero\studio\22.0\lib\android\Debug\google-play-services-base-7.0.0.dex.jar
+c:\program files (x86)\embarcadero\studio\22.0\lib\android\Debug\google-play-services-identity-7.0.0.dex.jar
+c:\program files (x86)\embarcadero\studio\22.0\lib\android\Debug\google-play-services-maps-7.0.0.dex.jar
+c:\program files (x86)\embarcadero\studio\22.0\lib\android\Debug\google-play-services-panorama-7.0.0.dex.jar
+c:\program files (x86)\embarcadero\studio\22.0\lib\android\Debug\google-play-services-plus-7.0.0.dex.jar
+c:\program files (x86)\embarcadero\studio\22.0\lib\android\Debug\google-play-services-wallet-7.0.0.dex.jar
