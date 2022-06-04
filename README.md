@@ -27,7 +27,7 @@ Then, just add a component of type TImage to the form or create a variable of th
 procedure TForm5.Button1Click(Sender: TObject);
 begin
   Image1.Bitmap := nil;
-  Image1.Bitmap.LoadFromUrl(Edit1.Text);
+  Image1.Bitmap.LoadFromUrl('https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/image/mizuno1.jpg');
 end;
 ```
 
@@ -36,7 +36,7 @@ end;
 procedure TForm5.Button2Click(Sender: TObject);
 begin
   Image1.Bitmap := nil;
-  Image1.Bitmap.LoadThumbnailFromUrl(Edit1.Text, 50, 50);
+  Image1.Bitmap.LoadThumbnailFromUrl('https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/image/mizuno1.jpg', 50, 50);
 end;
 ```
 
@@ -77,10 +77,10 @@ begin
           begin
             //
             case I of
-              1: Image2.Bitmap.LoadFromUrl('ftp://tdevrocks.com.br/portal/fotos/mizuno1.jpg');
-              0: Image1.Bitmap.LoadFromUrl('ftp://tdevrocks.com.br/portal/fotos/mizuno2.jpg');
-              2: Image3.Bitmap.LoadFromUrl('ftp://tdevrocks.com.br/portal/fotos/mizuno3.jpg');
-              3: Image4.Bitmap.LoadFromUrl('ftp://tdevrocks.com.br/portal/fotos/mizuno4.jpg');
+              1: Image2.Bitmap.LoadFromUrl('https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/image/mizuno1.jpg');
+              0: Image1.Bitmap.LoadFromUrl('https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/image/mizuno2.jpg');
+              2: Image3.Bitmap.LoadFromUrl('https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/image/mizuno3.jpg');
+              3: Image4.Bitmap.LoadFromUrl('https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/image/mizuno4.jpg');
             end;
           end
         )
