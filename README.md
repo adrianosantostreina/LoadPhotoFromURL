@@ -7,13 +7,13 @@
 # LoadPhotoFromURL
 This class was built to make it easy to load images and thumbnails using the file's URL.
 
-# Installation
+## Installation
 Just register in the Library Path of your Delphi the path of the SOURCE folder of the library, or if you prefer, you can use Boss (dependency manager for Delphi) to perform the installation:
 ```
 boss install github.com/adrianosantostreina/LoadPhotoFromURL
 ```
 
-# Use
+## Use
 Use
 Declare uBitmapHelper in the Uses section of the unit where you want to make the call to the class's method.
 ```delphi
@@ -22,7 +22,7 @@ use
 ```
 Then, just add a component of type TImage to the form or create a variable of this type if you wish.
 
-# Loading a full-size image
+## Loading a full-size image
 ```delphi
 procedure TForm5.Button1Click(Sender: TObject);
 begin
@@ -31,7 +31,7 @@ begin
 end;
 ```
 
-# Loading an image thumbnail
+## Loading an image thumbnail
 ```delphi
 procedure TForm5.Button2Click(Sender: TObject);
 begin
@@ -40,7 +40,7 @@ begin
 end;
 ```
 
-# Loading multiple images at the same time
+## Loading multiple images at the same time
 * Create a list of URL's
 ```delphi
 procedure TForm5.Button3Click(Sender: TObject);
