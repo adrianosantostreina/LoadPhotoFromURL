@@ -96,9 +96,7 @@ begin
 end;
 ```
 ## Documentation Languages
-<a href="https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/README.md">
-  <img alt="EUA" src="https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/image/eua_icon.png" width= 20px height= 20px>
-</a>
+<img alt="EUA" src="https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/image/eua_icon.png" width= 20px height= 20px>
 [English](https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/README.md)<br>
 
 <a href="https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/README.md">
