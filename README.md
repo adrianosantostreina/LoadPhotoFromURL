@@ -95,3 +95,5 @@ begin
   LThread.Start;
 end;
 ```
+## ⚠️ License
+`LoadPhotoFromURL` is free and open-source middleware licensed under the [MIT License](https://github.com/adrianosantostreina/blob/master/LICENSE). 
