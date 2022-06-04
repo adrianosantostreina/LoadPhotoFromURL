@@ -54,22 +54,14 @@ uses
 
 procedure TForm5.Button1Click(Sender: TObject);
 begin
-  try
-    Image1.Bitmap := nil;
-    Image1.Bitmap.LoadFromUrl(Edit1.Text);
-  except
-
-  end;
+  Image1.Bitmap := nil;
+  Image1.Bitmap.LoadFromUrl(Edit1.Text);
 end;
 
 procedure TForm5.Button2Click(Sender: TObject);
 begin
-  try
-    Image1.Bitmap := nil;
-    Image1.Bitmap.LoadThumbnailFromUrl(Edit1.Text, 50, 50);
-  except
-
-  end;
+  Image1.Bitmap := nil;
+  Image1.Bitmap.LoadThumbnailFromUrl(Edit1.Text, 50, 50);
 end;
 
 procedure TForm5.Button3Click(Sender: TObject);
@@ -105,10 +97,10 @@ begin
           procedure()
           begin
             case I of
-              0: Image1.Bitmap.LoadFromUrl(ListBox1.Items[I]);
-              1: Image2.Bitmap.LoadFromUrl(ListBox1.Items[I]);
-              2: Image3.Bitmap.LoadFromUrl(ListBox1.Items[I]);
-              3: Image4.Bitmap.LoadFromUrl(ListBox1.Items[I]);
+              1: Image2.Bitmap.LoadFromUrl('ftp://tdevrocks.com.br/portal/fotos/mizuno1.jpg');
+              0: Image1.Bitmap.LoadFromUrl('ftp://tdevrocks.com.br/portal/fotos/mizuno2.jpg');
+              2: Image3.Bitmap.LoadFromUrl('ftp://tdevrocks.com.br/portal/fotos/mizuno3.jpg');
+              3: Image4.Bitmap.LoadFromUrl('ftp://tdevrocks.com.br/portal/fotos/mizuno4.jpg');
             end;
           end
         )
