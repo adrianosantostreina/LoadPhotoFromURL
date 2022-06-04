@@ -99,9 +99,7 @@ end;
 <img alt="EUA" src="https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/image/eua_icon.png" width= 20px height= 20px>
 [English](https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/README.md)<br>
 
-<a href="https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/README.md">
-  <img alt="EUA" src="https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/image/brazil_icon.png">
-</a>
+<img alt="EUA" src="https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/image/brazil_icon.png">
 [Português](https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/README-ptBR.md)<br>
 
 ## ⚠️ License
