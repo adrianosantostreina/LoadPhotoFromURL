@@ -96,4 +96,4 @@ begin
 end;
 ```
 ## ⚠️ License
-`LoadPhotoFromURL` is free and open-source middleware licensed under the [MIT License](https://github.com/adrianosantostreina/blob/master/LICENSE). 
+`LoadPhotoFromURL` is free and open-source middleware licensed under the [MIT License](https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/LICENSE.md). 
