@@ -1,28 +1,27 @@
 <p align="center">
   <a href="https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/image/logo.png">
     <img alt="LoadPhotoFromURL" src="https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/image/logo.png">
-  </a>  
+  </a>
 </p>
 
 # LoadPhotoFromURL
-This class was built to make it easy to load images and thumbnails using the file's URL.
+Essa classe foi criada para facilitar o carregamento de imagens e miniaturas usando a URL do arquivo.
 
-## Installation
-Just register in the Library Path of your Delphi the path of the SOURCE folder of the library, or if you prefer, you can use Boss (dependency manager for Delphi) to perform the installation:
+## Instalação
+Basta declarar no Library Path do seu Delphi o caminho da pasta SOURCE da biblioteca, ou se preferir, você pode usar o Boss (gerenciador de dependências do Delphi) para realizar a instalação:
 ```
 boss install github.com/adrianosantostreina/LoadPhotoFromURL
 ```
 
-## Use
-Use
-Declare uBitmapHelper in the Uses section of the unit where you want to make the call to the class's method.
+## Uso
+Declare uBitmapHelper na seção Uses da unit onde você deseja fazer a chamada para o método da classe.
 ```delphi
 use
    uBitmapHelper;
 ```
-Then, just add a component of type TImage to the form or create a variable of this type if you wish.
+Em seguida, basta adicionar um componente do tipo TImage ao formulário ou criar uma variável desse tipo se desejar.
 
-## Loading a full-size image
+## Carregando uma imagem em tamanho real
 ```delphi
 procedure TForm5.Button1Click(Sender: TObject);
 begin
@@ -31,7 +30,7 @@ begin
 end;
 ```
 
-## Loading an image thumbnail
+## Carregando uma miniatura de imagem
 ```delphi
 procedure TForm5.Button2Click(Sender: TObject);
 begin
@@ -40,8 +39,8 @@ begin
 end;
 ```
 
-## Loading multiple images at the same time
-* Create a list of URL's
+## Carregando várias imagens ao mesmo tempo
+* Crie uma lista de URLs
 ```delphi
 procedure TForm5.Button3Click(Sender: TObject);
 var
@@ -95,8 +94,5 @@ begin
   LThread.Start;
 end;
 ```
-## Documentation Languages
-[Portuguese - pt-BR](https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/README-ptBR.md)
-
-## ⚠️ License
-`LoadPhotoFromURL` is free and open-source library licensed under the [MIT License](https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/LICENSE.md). 
+## ⚠️ Licença
+`LoadPhotoFromURL` é uma biblioteca gratuita e de código aberto licenciado sob a [Licença MIT](https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/LICENSE.md).
