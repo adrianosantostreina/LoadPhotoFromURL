@@ -96,8 +96,8 @@ begin
 end;
 ```
 ## Documentation Languages
-[English - en](https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/README.md)
-[Portuguese - pt-BR](https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/README-ptBR.md)
+[English - en](https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/README.md)<br>
+[Portuguese - pt-BR](https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/README-ptBR.md)<br>
 
 ## ⚠️ License
 `LoadPhotoFromURL` is free and open-source library licensed under the [MIT License](https://github.com/adrianosantostreina/LoadPhotoFromURL/blob/main/LICENSE.md). 
