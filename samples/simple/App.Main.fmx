@@ -2,14 +2,14 @@ object Form5: TForm5
   Left = 0
   Top = 0
   Caption = 'Form5'
-  ClientHeight = 480
-  ClientWidth = 640
+  ClientHeight = 360
+  ClientWidth = 860
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
   DesignerMasterStyle = 0
   object Button1: TButton
-    Position.X = 552.000000000000000000
+    Position.X = 684.000000000000000000
     Position.Y = 8.000000000000000000
     TabOrder = 0
     Text = 'Load'
@@ -20,7 +20,7 @@ object Form5: TForm5
       item
       end>
     Position.X = 8.000000000000000000
-    Position.Y = 144.000000000000000000
+    Position.Y = 68.000000000000000000
     Size.Width = 153.000000000000000000
     Size.Height = 137.000000000000000000
     Size.PlatformDefault = False
@@ -31,13 +31,13 @@ object Form5: TForm5
     Text = 'ftp://tdevrocks.com.br/portal/fotos/mizuno1.jpg'
     Position.X = 8.000000000000000000
     Position.Y = 8.000000000000000000
-    Size.Width = 536.000000000000000000
+    Size.Width = 668.000000000000000000
     Size.Height = 22.000000000000000000
     Size.PlatformDefault = False
     object ListBox1: TListBox
       Position.X = 322.000000000000000000
-      Position.Y = 136.000000000000000000
-      Size.Width = 303.000000000000000000
+      Position.Y = 60.000000000000000000
+      Size.Width = 519.000000000000000000
       Size.Height = 281.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 0
@@ -50,13 +50,13 @@ object Form5: TForm5
       DefaultItemStyles.ItemStyle = ''
       DefaultItemStyles.GroupHeaderStyle = ''
       DefaultItemStyles.GroupFooterStyle = ''
-      Viewport.Width = 299.000000000000000000
+      Viewport.Width = 515.000000000000000000
       Viewport.Height = 277.000000000000000000
     end
   end
   object Button2: TButton
-    Position.X = 553.000000000000000000
-    Position.Y = 38.000000000000000000
+    Position.X = 772.000000000000000000
+    Position.Y = 8.000000000000000000
     TabOrder = 3
     Text = 'Thumbnail'
     OnClick = Button2Click
@@ -66,7 +66,7 @@ object Form5: TForm5
       item
       end>
     Position.X = 169.000000000000000000
-    Position.Y = 144.000000000000000000
+    Position.Y = 68.000000000000000000
     Size.Width = 153.000000000000000000
     Size.Height = 137.000000000000000000
     Size.PlatformDefault = False
@@ -76,7 +76,7 @@ object Form5: TForm5
       item
       end>
     Position.X = 8.000000000000000000
-    Position.Y = 289.000000000000000000
+    Position.Y = 213.000000000000000000
     Size.Width = 153.000000000000000000
     Size.Height = 137.000000000000000000
     Size.PlatformDefault = False
@@ -86,19 +86,19 @@ object Form5: TForm5
       item
       end>
     Position.X = 169.000000000000000000
-    Position.Y = 289.000000000000000000
+    Position.Y = 213.000000000000000000
     Size.Width = 153.000000000000000000
     Size.Height = 137.000000000000000000
     Size.PlatformDefault = False
   end
   object Button3: TButton
-    Position.X = 330.000000000000000000
-    Position.Y = 433.000000000000000000
-    Size.Width = 302.000000000000000000
+    Position.X = 333.000000000000000000
+    Position.Y = 38.000000000000000000
+    Size.Width = 519.000000000000000000
     Size.Height = 22.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 8
     Text = 'All'
-    OnClick = Button3Click
+    OnClick = Z
   end
 end

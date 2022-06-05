@@ -34,7 +34,7 @@ type
     Button3: TButton;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
-    procedure Button3Click(Sender: TObject);
+    procedure Z(Sender: TObject);
     private
       { Private declarations }
     public
@@ -64,7 +64,7 @@ begin
   Image1.Bitmap.LoadThumbnailFromUrl(Edit1.Text, 50, 50);
 end;
 
-procedure TForm5.Button3Click(Sender: TObject);
+procedure TForm5.Z(Sender: TObject);
 var
   LThread: TThread;
 begin
@@ -97,10 +97,10 @@ begin
           procedure()
           begin
             case I of
-              1: Image2.Bitmap.LoadFromUrl('ftp://tdevrocks.com.br/portal/fotos/mizuno1.jpg');
-              0: Image1.Bitmap.LoadFromUrl('ftp://tdevrocks.com.br/portal/fotos/mizuno2.jpg');
-              2: Image3.Bitmap.LoadFromUrl('ftp://tdevrocks.com.br/portal/fotos/mizuno3.jpg');
-              3: Image4.Bitmap.LoadFromUrl('ftp://tdevrocks.com.br/portal/fotos/mizuno4.jpg');
+              0: Image1.Bitmap.LoadFromUrl(ListBox1.Items[I]);
+              1: Image2.Bitmap.LoadFromUrl(ListBox1.Items[I]);
+              2: Image3.Bitmap.LoadFromUrl(ListBox1.Items[I]);
+              3: Image4.Bitmap.LoadFromUrl(ListBox1.Items[I]);
             end;
           end
         )
