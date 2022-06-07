@@ -14,10 +14,9 @@ boss install github.com/adrianosantostreina/LoadPhotoFromURL
 ```
 
 ## Use
-Use
 Declare uBitmapHelper in the Uses section of the unit where you want to make the call to the class's method.
 ```delphi
-use
+uses
    uBitmapHelper;
 ```
 Then, just add a component of type TImage to the form or create a variable of this type if you wish.
